@@ -178,3 +178,116 @@ nav ul li a:hover {
 #video video {
     border-radius: 15px;
 }
+
+
+.title h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #eb155c;
+    color: var(--dark-color2);
+    font-weight: 700;
+    font-size: var(--font-size-title);
+}
+
+.title h3 {
+    color: var(--color-font1);
+    font-weight: 500;
+}
+
+#conteudo {
+    margin: 60px;
+    margin-bottom: 0;
+}
+
+#conteudo h1 {
+    font-size: var(--font-size-title2);
+    color: var(--light-color);
+    font-weight: 700;
+}
+
+#conteudo h1 span {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #eb155c;
+    font-size: var(--font-size-title2);
+    color: var(--dark-color);
+    font-weight: 700;
+}
+
+
+#conteudo h2 {
+    margin-top: 30px;
+    color: var(--light-color);
+    font-size: var(--font-size1);
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+    background: var(--gradient-color);
+    box-shadow: 0px 0px 20px 1px var(--dark-color3);
+    color: var(--light-color);
+}
+
+footer .logo img {
+    height: 40px;
+}
+
+footer .ctn-footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.ctn-equipe {
+    display: flex;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+footer .equipe {
+    margin: 15px;
+    list-style: none;
+}
+
+footer .equipe li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--light-color);
+}
+
+.direitos span a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.direitos span a:hover {
+    color: var(--primary-color);
+    font-weight: 600;
+}
