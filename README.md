@@ -1,4 +1,9 @@
-# FIAP | news
+<div align="center">
 
-📎[Click](https://leoosilvp.github.io/FIAPnews/)
+# 📰 FIAP | news
+</div>
+
+## Em desenvolvimento!
+
+📎acesse [Fiap news!](https://leoosilvp.github.io/FIAPnews/)
 
