@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const direction = position === centerIndex - 2 ? -1 : 1;
                 card.style.transform = `translateX(${direction * 300}px) scale(0.8)`;
                 card.style.zIndex = '1';
-                card.style.opacity = '0.7';
+                card.style.opacity = '0.6';
             } else {
                 // Cards não visíveis
                 card.style.transform = 'translateX(0) scale(0)';
