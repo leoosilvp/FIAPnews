@@ -43,13 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
             } else if (position === centerIndex - 1 || position === centerIndex + 1) {
                 // Cards adjacentes
                 const direction = position === centerIndex - 1 ? -1 : 1;
-                card.style.transform = `translateX(${direction * 120}px) scale(0.9)`;
+                card.style.transform = `translateX(${direction * 150}px) scale(0.9)`;
                 card.style.zIndex = '5';
-                card.style.opacity = '0.9';
+                card.style.opacity = '1';
             } else if (position === centerIndex - 2 || position === centerIndex + 2) {
                 // Cards mais distantes
                 const direction = position === centerIndex - 2 ? -1 : 1;
-                card.style.transform = `translateX(${direction * 220}px) scale(0.8)`;
+                card.style.transform = `translateX(${direction * 300}px) scale(0.8)`;
                 card.style.zIndex = '1';
                 card.style.opacity = '0.7';
             } else {
