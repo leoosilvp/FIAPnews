@@ -14,7 +14,7 @@
     --color-font2: #000;
     --transition: all 0.3s ease;
     --border-radius-btn: 7px;
-    --gradient-color: linear-gradient(90deg, #040404, #151819, #040404);
+    --gradient-color: linear-gradient(90deg, #030303, #151819, #030303);
     --font-size-title: 3.5rem;
     --font-size-title2: 2.5rem;
     --font-size1: 1.3rem;
@@ -121,7 +121,6 @@ nav ul li a:hover {
     font-weight: 700;
     font-size: var(--font-size-title);
     text-align: center;
-    margin-top: -60px;
 
 }
 
