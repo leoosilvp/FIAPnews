@@ -181,6 +181,30 @@ nav ul li a:hover {
     border-radius: 15px;
 }
 
+/* the news */
+#conteudo-the-news {
+    text-align: justify;
+}
+
+#conteudo-the-news h1 {
+    font-size: var(--font-size-title2);
+    color: var(--light-color);
+    font-weight: 700;
+}
+
+#conteudo-the-news h2 {
+    margin-top: 30px;
+    color: var(--light-color);
+    font-size: var(--font-size1);
+}
+
+#conteudo-the-news h3 {
+    margin: 20px;
+    color: var(--color-font1);
+    font-size: var(--font-size2);
+    font-weight: 600;
+}
+
 /* conteudo */
 
 .title h1 {
