@@ -183,11 +183,6 @@ nav ul li a:hover {
 
 /* conteudo */
 
-.ctn-next {
-    text-align: justify;
-
-}
-
 .title h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #eb155c;
@@ -204,6 +199,7 @@ nav ul li a:hover {
 #conteudo {
     margin: 60px;
     margin-bottom: 0;
+    text-align: justify;
 }
 
 #conteudo h1 {
@@ -250,6 +246,19 @@ nav ul li a:hover {
 
 .img-win-next img {
     width: 800px;
+    border-radius: 15px;
+}
+
+#ctn-the-news {
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px var(--dark-color3);
+}
+
+#img-the-news img {
+    display: flex;
+    width: 700px;
     border-radius: 15px;
 }
 
