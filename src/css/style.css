@@ -111,7 +111,7 @@ nav ul li a:hover {
 
 #invite {
     display: flex;
-    margin-right: 60px;
+    margin: 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -178,6 +178,7 @@ nav ul li a:hover {
 }
 
 #video video {
+    width: 1000px;
     border-radius: 15px;
 }
 
@@ -504,4 +505,70 @@ footer .equipe li a {
 .direitos span a:hover {
     color: var(--primary-color);
     font-weight: 600;
+}
+
+
+/* responsividade */
+
+@media(width <= 1720px){
+
+    #invite{
+    margin-right: 0px;
+    }
+    
+    #video video {
+    width: 900px;
+}
+
+#invite h2 {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+}
+
+
+@media(width <= 1520px){
+
+    #invite{
+        margin: 0;
+    }
+    
+    #video video {
+        width: 700px;
+    }
+
+    #invite h1{
+        font-size: var(--font-size-title2);
+    }
+
+    .btn {
+        margin-top: 40px;
+    }
+
+}
+
+
+
+@media(width <= 1320px){
+    #video video {
+    display: none;
+}
+
+#invite{
+    margin: 40px;
+}
+
+#invite h2 {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+
 }
